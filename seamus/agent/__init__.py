@@ -110,7 +110,6 @@ class plugin(object):
             if isinstance(v, (basestring, unicode)):
                 jsonpath_expr = jsonpath_rw.parse(v)
 
-
                 new_indices[k] = functools.partial(cls.jsonpath_matcher, jsonpath_expr)
             elif not inspect.isfunction(v):
                 raise Exception('provided index \'%s\' is not a function, closure or method' % k)
