@@ -51,7 +51,6 @@ class ITAdmDataInterface(object):
                     portals[portalname][propname] = propval
 
         for line in lines:
-            print line
             if len(line.lstrip()) < len(line):
                 props.append(map(str.strip, line.split(':', 1)))
             else:
@@ -88,7 +87,6 @@ class ITAdmDataInterface(object):
                     targets[targetiqn][propname] = propval
 
         for line in lines:
-            print line
             if len(line.lstrip()) < len(line):
                 props.append(map(str.strip, line.split(':')))
             else:

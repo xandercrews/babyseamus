@@ -127,16 +127,19 @@ class ZFSDataInterface(object):
                             if current_device_type is None:
                                 if 'vdev' not in pools[current_pool]:
                                     pools[current_pool]['vdev'] = {}
-                                pools[current_pool]['vdev'][vdev] = dict(name=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
+                                pools[current_pool]['vdev'][vdev] = dict(devicename=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
                             elif current_device_type == ARC_DEVICE:
-                                assert 'cache' not in pools[current_pool], 'expected there is no previous cache/zil device'
-                                pools[current_pool]['cache'] = dict(name=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
+                                if 'cache' not in pools[current_pool]:
+                                    pools[current_pool]['cache'] = {}
+                                pools[current_pool]['cache'][vdev] = dict(devicename=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
                             elif current_device_type == ZIL_DEVICE:
-                                assert 'log' not in pools[current_pool], 'expected there is no previous log/l2arc device'
-                                pools[current_pool]['log'] = dict(name=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
+                                if 'log' not in pools[current_pool]:
+                                    pools[current_pool]['log'] = {}
+                                pools[current_pool]['log'][vdev] = dict(devicename=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
                             elif current_device_type == SPARE_DEVICE:
-                                assert 'spares' not in pools[current_pool], 'expected there is no previous spare device declaration'
-                                pools[current_pool]['spares'] = dict(name=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
+                                if 'spares' not in pools[current_pool]:
+                                    pools[current_pool]['spares'] = {}
+                                pools[current_pool]['spares'][vdev] = dict(devicename=vdev, state=state, errors=dict(read=read, write=write, cksum=cksum))
                             current_vdev = vdev
                         else:
                             assert current_device_type != SPARE_DEVICE, 'not expecting nested spare devices'
@@ -165,8 +168,6 @@ class ZFSDataInterface(object):
                     else:
                         assert line.strip() == '', 'expect line is empty if not error property'
         except Exception, e:
-            import pprint
-            pprint.pprint(pools)
             raise
 
         return pools
@@ -180,7 +181,12 @@ class ZFSDataInterface(object):
         names = {}
 
         # collect properties
-        for line in lines[1:]:
+        if scriptmode:
+            line_iter = iter(lines)
+        else:
+            line_iter = iter(lines[1:])
+
+        for line in line_iter:
             if scriptmode:
                 name, propname, propvalue, source = line.split('\t')
             else:

@@ -31,6 +31,10 @@ class IndexResolveException(Exception):
 
 # what do i call this thing?
 class plugin_type(object):
+    def __init__(self):
+        super(plugin_type, self).__init__()
+        self.plugin.add_type_obj(self)
+
     def add_indexes(self, **indices):
         assert hasattr(self, 'indices'), 'expected the type was constructed with indices'
         plugin.add_indexes_to(self.indices, **indices)
@@ -64,7 +68,7 @@ class plugin_type(object):
             obj_uuid = self.index_data[idx]
         else:
             # if no other record is indexed, create a new object and index it
-            obj_uuid = uuid.uuid4().bytes
+            obj_uuid = str(uuid.uuid4())
             self.index_data[idx] = obj_uuid
 
         e = self.plugin.envelope(type=self.plugintype)
@@ -80,6 +84,15 @@ class plugin_type(object):
 class plugin(object):
     def __init__(self, pluginname):
         self.pluginname = pluginname
+        self.typeobjs = []
+
+    def add_type_obj(self, o):
+        self.typeobjs.append(o)
+
+    def all_data(self):
+        for t in self.typeobjs:
+            for k,v in t.data.iteritems():
+                yield k,v
 
     def envelope(self, **envdata):
         # we'll generate the timestamp in case it's not supplied
