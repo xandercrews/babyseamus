@@ -3,7 +3,7 @@ __author__ = 'achmed'
 import seamus.agent
 
 p = seamus.agent.plugin('hvnode')
-lun = p.make_type('lun', id='luid', id2='luid2')()
+lun = p.make_type('lun', id='luid')()
 
 # print lun
 # print lun.__class__
