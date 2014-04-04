@@ -14,6 +14,8 @@ import collections
 import itertools
 import operator
 
+import multiprocessing.dummy
+
 from timeit import default_timer
 
 class Timer(object):
@@ -370,41 +372,78 @@ def main(*args):
         print lunlevelconnection[0]
     print len(lunlevelconnection), 'lun to lun edges'
 
-    import networkx as nx
-    import matplotlib.pyplot as plt
+    from orient_test import login, add_vertex, drop_class, create_class, batch_cmd
 
-    G = nx.DiGraph()
+    login()
 
+    drop_class('testclass')
+    create_class('testclass', extends='V')
+
+    # p = multiprocessing.dummy.Pool(10)
+
+    # def f(t):
+    #     k,o = t
+    #     add_vertex(dict(o.items() + [('objuuid', k,),]))
+
+    # with Timer() as t:
+    #     p.map(f, allobjs.iteritems())
+
+
+    # ops = json.dumps(dict(transaction=True, operations=[ dict(type='cmd', language='sql', command='create vertex testclass content %s' % json.dumps(dict(o.items() + [('objuuid', k,)]))) for k,o in allobjs.iteritems()]))
+    ops = json.dumps(dict(transaction=True, operations=[ dict(type='c', record=dict(o.items() + [('@class', 'testclass'), ('objuuid', k,)])) for k,o in allobjs.iteritems()]))
+
+    with Timer() as t:
+        batch_cmd(ops=ops)
+
+    print 'elapsed %0.9fs' % t.elapsed_secs, 'inserting vertices'
+
+    alledges = itertools.chain(lunviewedges, zvollunedges, zpoolzvoledges, snapshotzvoledges, vdevzpooledges, diskvdevedges, cachezpooledges, sparezpooledges, tpgtargetrelations, portallevelconnection, initiatorlevelconnection, initiatorlevelconnection, lunlevelconnection)
+
+    ops = json.dumps(dict(transaction=True, operations=[ dict(type='cmd', language='sql', command='create edge testedge from (select from testclass where objuuid = \'%s\') to (select from testclass where objuuid = \'%s\') set name = \'%s\'' % (t[1], t[2], t[0],)) for t in alledges]))
+
+    with Timer() as t:
+        batch_cmd(ops=ops)
+
+    print 'elapsed %0.9fs' % t.elapsed_secs, 'inserting edges'
+
+    ## gephi / networkx test
+
+    # import networkx as nx
+    # import matplotlib.pyplot as plt
+
+    # G = nx.DiGraph()
+    #
     # for k,v in allobjs.iteritems():
     #     attrs = v['_d']
     #     attrs = dict(filter(lambda t: not isinstance(t[1], (collections.Sequence, collections.Mapping)) or isinstance(t[1], (unicode, basestring)), attrs.iteritems()))
     #     G.add_node(k, **attrs)
+    #
+    # for k,v in allobjs.iteritems():
+    #     nodetype = v['pluginname']
+    #     nodeplugin = v['type']
+    #     _type='%s:%s' % (nodetype, nodeplugin)
+    #     G.add_node(k, type=_type, objuuid=k)
+    #
+    # for set in lunviewedges, zvollunedges, zpoolzvoledges, snapshotzvoledges, vdevzpooledges, diskvdevedges, cachezpooledges, sparezpooledges, tpgtargetrelations, portallevelconnection, initiatorlevelconnection, initiatorlevelconnection, lunlevelconnection:
+    #     if len(set) == 0:
+    #         continue
+    #
+    #     edgelabel = set[0][0]
+    #
+    #     G.add_edges_from(map(lambda t: (t[1], t[2],), set), label=edgelabel)
+    #
+    # G = nx.relabel_nodes(G, {k: node_label_mapper(v) for k,v in allobjs.iteritems()})
+    #
+    # nx.draw(G)
+    #
+    # nx.write_graphml(G, '/tmp/wat.graphml')
+    # nx.write_gexf(G, '/tmp/wat.gexf')
+    #
+    # import networkx.readwrite.json_graph
+    #
+    # with open('/tmp/wat.json', 'w') as fh:
+    #     json.dump(networkx.readwrite.json_graph.node_link_data(G), fh, indent=2)
 
-    for k,v in allobjs.iteritems():
-        nodetype = v['pluginname']
-        nodeplugin = v['type']
-        _type='%s:%s' % (nodetype, nodeplugin)
-        G.add_node(k, type=_type)
-
-    for set in lunviewedges, zvollunedges, zpoolzvoledges, snapshotzvoledges, vdevzpooledges, diskvdevedges, cachezpooledges, sparezpooledges, tpgtargetrelations, portallevelconnection, initiatorlevelconnection, initiatorlevelconnection, lunlevelconnection:
-        if len(set) == 0:
-            continue
-
-        edgelabel = set[0][0]
-
-        G.add_edges_from(map(lambda t: (t[1], t[2],), set), label=edgelabel)
-
-    G = nx.relabel_nodes(G, {k: node_label_mapper(v) for k,v in allobjs.iteritems()})
-
-    nx.draw(G)
-
-    nx.write_graphml(G, '/tmp/wat.graphml')
-    nx.write_gexf(G, '/tmp/wat.gexf')
-
-    import networkx.readwrite.json_graph
-
-    with open('/tmp/wat.json', 'w') as fh:
-        json.dump(networkx.readwrite.json_graph.node_link_data(G), fh, indent=2)
 
     # plt.show()
 
