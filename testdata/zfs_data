@@ -1,0 +1,3983 @@
+{
+  "c8c842f8-e81a-ec9b-858b-98c72cc671d1": {
+    "timestamp": 1396544210.209506, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t4d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-3", 
+      "name": "c3t4d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "ad1ef0a1-227c-6acc-976f-bd56b7566357": {
+    "timestamp": 1396544210.1936171, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "portals": "10.13.33.7:7999", 
+      "name": "ethtgt"
+    }, 
+    "type": "targetportalgroup"
+  }, 
+  "a24a9c35-bf14-6409-d899-de841364f782": {
+    "timestamp": 1396544210.2009649, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000526569C40019", 
+      "lun": 28
+    }, 
+    "type": "view"
+  }, 
+  "94d82935-512d-6139-95f5-f6d6229de5a9": {
+    "timestamp": 1396544210.2000539, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/razor", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000512BBC3B0002", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 107374182400, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/razor", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "8584b802-ae85-63ac-9d9e-b9309be22094": {
+    "timestamp": 1396544210.215898, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "98002359296", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1390507711", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "98002359296", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "98002359296", 
+      "usedbydataset": "98002359296", 
+      "refcompressratio": "1.00x", 
+      "volsize": "214748364800", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/docker", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "a7b32ce1-8ccb-6115-f500-9b224d1216ca": {
+    "timestamp": 1396544210.2021821, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000513F94F30004", 
+      "lun": 4
+    }, 
+    "type": "view"
+  }, 
+  "5073e441-b67d-ea7f-d8c2-e7d70b41f859": {
+    "timestamp": 1396544210.212523, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "2777732096", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1380485708", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "2777732096", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "2777732096", 
+      "usedbydataset": "2777732096", 
+      "refcompressratio": "1.00x", 
+      "volsize": "42949672960", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/ipam", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "6f6a102a-ce39-ecc9-8a9d-b789bc42641d": {
+    "timestamp": 1396544210.2129321, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "259565568", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381023451", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "138539008", 
+      "usedbysnapshots": "119121920", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "378687488", 
+      "usedbydataset": "259565568", 
+      "refcompressratio": "1.00x", 
+      "volsize": "32212254720", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/mgmtnet1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "7c3442cd-1532-4bcb-bf4f-bf1ed8519f33": {
+    "timestamp": 1396544210.207397, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/wheezy1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000522024E20002", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 21474836480, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/wheezy1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "c35aa18b-86c2-e4e1-bd4e-ef0338bfa865": {
+    "timestamp": 1396544210.20665, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/oinkuidev", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000525804F80014", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 128849018880, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/oinkuidev", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "dcf0f474-ee06-c9ba-ccd4-fcbdf8eb0a9c": {
+    "timestamp": 1396544210.2002161, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522543610006", 
+      "lun": 11
+    }, 
+    "type": "view"
+  }, 
+  "ef1cae14-de7d-cb85-f70c-8085e091195f": {
+    "timestamp": 1396544210.2105019, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t2d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-1", 
+      "name": "c3t2d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "e0512ace-4e63-4b4a-909e-8af55aec2de5": {
+    "timestamp": 1396544210.2126601, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "6073159680", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1365006559", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "6073159680", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "6073159680", 
+      "usedbydataset": "6073159680", 
+      "refcompressratio": "1.00x", 
+      "volsize": "128849018880", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/ats", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "e91f8a59-9465-cc6d-bb57-afb7919cb2c4": {
+    "timestamp": 1396544210.1970329, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/atlassian", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000051BF7B770001", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 107374182400, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/atlassian", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "40e2305b-0f58-ed74-a2c1-d295fbac66ea": {
+    "timestamp": 1396544210.1994541, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005235BE6C0007", 
+      "lun": 18
+    }, 
+    "type": "view"
+  }, 
+  "3cfe3c3d-6cbf-6632-ba43-cbe69721909a": {
+    "timestamp": 1396544210.2071049, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522024E20002", 
+      "lun": 7
+    }, 
+    "type": "view"
+  }, 
+  "4b4c0110-0e8a-49da-dd92-e6f37d066c5a": {
+    "timestamp": 1396544210.208559, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "raidz1-0", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "testpool"
+    }, 
+    "type": "vdev"
+  }, 
+  "c5850c2b-4939-6a75-c0c8-f42776ac7049": {
+    "timestamp": 1396544210.1946321, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "node01"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000050BE7D3D0005", 
+      "lun": 2
+    }, 
+    "type": "view"
+  }, 
+  "7a6ca6d5-c7da-e3f2-fb7c-e64805db38e7": {
+    "timestamp": 1396544210.2146749, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "8894598144", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/oinkuidev@cloney", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1381875611", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "8894598144", 
+      "used": "3435346944", 
+      "parent": "stor/vms/oinkuidev", 
+      "secondarycache": "all", 
+      "clones": "stor/vms/oinkuidev2", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "1ecd33b3-b09e-4b0a-dae1-a3faaf607cd3": {
+    "timestamp": 1396544210.2038159, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/edge2", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005244E681000C", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 77309411328, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/edge2", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "cb7b790f-038a-c954-8051-caafb807fd29": {
+    "timestamp": 1396544210.219167, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vms/mgmtnet1@running", 
+      "referenced": "240017408", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381435634", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "1024", 
+      "usedbysnapshots": "1024", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "223079424", 
+      "usedbydataset": "223078400", 
+      "refcompressratio": "1.00x", 
+      "volsize": "32212254720", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vmimage/routeros-NS7W-33DJ", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "e4318503-a3d9-cf50-fad9-c21d8bfdfa86": {
+    "timestamp": 1396544210.1983831, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/routeros2", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000522156E40004", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 85899345920, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/routeros2", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "ad98e090-af28-6b36-b73a-f412e1000269": {
+    "timestamp": 1396544210.2044301, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522000C80001", 
+      "lun": 13
+    }, 
+    "type": "view"
+  }, 
+  "7d9ce71b-8900-67d1-dba9-c9b28d0b335a": {
+    "timestamp": 1396544210.2014201, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005235CB210008", 
+      "lun": 19
+    }, 
+    "type": "view"
+  }, 
+  "4186b87f-61af-ca28-dbd1-8d959fc2d3e4": {
+    "timestamp": 1396544210.199595, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/saltmaster", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005235BE6C0007", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 85899345920, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/saltmaster", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "c50bd364-8d17-4545-87bd-d7591ae2fd92": {
+    "timestamp": 1396544210.214401, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "240148480", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/mgmtnet1@running", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1381435613", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "240148480", 
+      "used": "119121920", 
+      "parent": "stor/vms/mgmtnet1", 
+      "secondarycache": "all", 
+      "clones": "stor/vmimage/routeros-NS7W-33DJ", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "ecacc3d8-2afd-e421-92eb-ac1bdd06e8e6": {
+    "timestamp": 1396544210.2098, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-3", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "vdev"
+  }, 
+  "7e91fa56-a76e-c468-eb06-efe3cd56a6d1": {
+    "timestamp": 1396544210.195087, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000515C58F30005", 
+      "lun": 9
+    }, 
+    "type": "view"
+  }, 
+  "50e7f066-6061-4b43-f639-93fa15bd1069": {
+    "timestamp": 1396544210.198679, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/lbtestrouter", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000525C43950015", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 32212254720, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/lbtestrouter", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "6a151fed-998a-4c11-a534-c09f9e03be66": {
+    "timestamp": 1396544210.2048819, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000051648B5E0006", 
+      "lun": 11
+    }, 
+    "type": "view"
+  }, 
+  "c05f5dc4-dd89-4795-b0d4-8688e514d317": {
+    "timestamp": 1396544210.2032239, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522192250005", 
+      "lun": 10
+    }, 
+    "type": "view"
+  }, 
+  "1a0547fd-b18a-6bff-c7b4-ded556799126": {
+    "timestamp": 1396544210.216171, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "16384", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1353542007", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "16384", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "16384", 
+      "usedbydataset": "16384", 
+      "refcompressratio": "1.00x", 
+      "volsize": "161061273600", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/chefnode", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "195db26b-2399-ee17-f0f0-f56d678e1408": {
+    "timestamp": 1396544210.1971941, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000052642E700017", 
+      "lun": 26
+    }, 
+    "type": "view"
+  }, 
+  "4a2146b0-8cdd-6f9d-8ef7-ed5348464120": {
+    "timestamp": 1396544210.1941631, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "name": "beastmode1", 
+      "members": [
+        "iqn.2013-09.org.beastmode1:01:a07ac65075"
+      ]
+    }, 
+    "type": "hostgroup"
+  }, 
+  "e94cba44-adf6-ea3a-e76b-be645f41b19d": {
+    "timestamp": 1396544210.2179451, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "19251001344", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1365543761", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "19251001344", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "19251001344", 
+      "usedbydataset": "19251001344", 
+      "refcompressratio": "1.00x", 
+      "volsize": "128849018880", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/tools", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "f5ff5d7a-ec1d-c233-a60a-bd003cbd295e": {
+    "timestamp": 1396544210.21808, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "21824", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1396145819", 
+      "zpoolname": "testpool", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "21824", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "224670546", 
+      "used": "21824", 
+      "usedbydataset": "21824", 
+      "refcompressratio": "1.00x", 
+      "volsize": "104857600", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "testpool/vol", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "acd060b1-b59c-42d9-c6b6-be08864977d3": {
+    "timestamp": 1396544210.2036829, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005244E681000C", 
+      "lun": 22
+    }, 
+    "type": "view"
+  }, 
+  "4d7071f4-3780-e17c-8338-9d9dc36997b9": {
+    "timestamp": 1396544210.196578, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/routeros1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005221478B0003", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 85899345920, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/routeros1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "9ed06d31-dd66-e9b5-f1b5-c0e222fd9e25": {
+    "timestamp": 1396544210.1933341, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "targetchapuser": "-", 
+      "auth": "none (defaults)", 
+      "alias": "-", 
+      "target_iqn": "iqn.2010-09.org.openindiana:02:498b623c-005f-eaf6-9393-8d80a101e18b", 
+      "targetchapsecret": "unset", 
+      "targetportalgroup": "ethtgt"
+    }, 
+    "type": "target"
+  }, 
+  "0f11013d-0175-6116-f900-d1113b7196d9": {
+    "timestamp": 1396544210.2188959, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "10781778944", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1382297184", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "0", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "10781778944", 
+      "usedbydataset": "10781778944", 
+      "refcompressratio": "1.00x", 
+      "volsize": "10737418240", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vmimage/stingray-v81r1-06a", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "e0cda567-c651-e8f3-f72b-cd22b8006a18": {
+    "timestamp": 1396544210.2091379, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t3d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-2", 
+      "name": "c3t3d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "26ab5535-6e92-43e0-f880-cd8e52b07744": {
+    "timestamp": 1396544210.2003751, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522543610006", 
+      "lun": 17
+    }, 
+    "type": "view"
+  }, 
+  "5725a39b-a86b-c0c1-bdc0-ce83d4ebd5d3": {
+    "timestamp": 1396544210.216584, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "16384", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1377838295", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "16384", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "16384", 
+      "usedbydataset": "16384", 
+      "refcompressratio": "1.00x", 
+      "volsize": "21474836480", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/wheezy1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "b8c6dc22-1b8e-4b2f-9d7d-99d3758e831b": {
+    "timestamp": 1396544210.1955259, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/dangle", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000509F553A0001", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 53687091200, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/dangle", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "c6007827-ace5-ebbd-cd42-9e59835fc403": {
+    "timestamp": 1396544210.2047241, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000051648B5E0006", 
+      "lun": 3
+    }, 
+    "type": "view"
+  }, 
+  "dcdd40d7-a923-ccfb-842d-979e167bf153": {
+    "timestamp": 1396544210.2093661, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-2", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "vdev"
+  }, 
+  "ccf75234-9004-687b-aae3-e9d996b423a9": {
+    "timestamp": 1396544210.213341, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "18086886400", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1378173782", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "15534756864", 
+      "usedbysnapshots": "926354432", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "19013240832", 
+      "usedbydataset": "18086886400", 
+      "refcompressratio": "1.00x", 
+      "volsize": "107374182400", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/xcat1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "309b0e6a-de9a-ee5d-ef3e-98a4784baa68": {
+    "timestamp": 1396544210.200804, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/cache", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000526C3FBD001A", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 85899345920, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/cache", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "afac5a1d-d97d-c87b-ab85-c233b4db8d95": {
+    "timestamp": 1396544210.1943309, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000525DBFAD0016", 
+      "lun": 25
+    }, 
+    "type": "view"
+  }, 
+  "4101d1ca-7eb2-6b57-ef54-ca4463dd4207": {
+    "timestamp": 1396544210.205478, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000052488A54000D", 
+      "lun": 1
+    }, 
+    "type": "view"
+  }, 
+  "b5aacab6-a10b-6c8b-d132-a5a0d8eb09ce": {
+    "timestamp": 1396544210.1930521, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "targetchapuser": "-", 
+      "auth": "none (defaults)", 
+      "alias": "-", 
+      "target_iqn": "iqn.2010-09.org.openindiana:02:77342d21-5e73-eb0d-ec0c-e089d76c1585", 
+      "targetchapsecret": "unset", 
+      "targetportalgroup": "isertgt"
+    }, 
+    "type": "target"
+  }, 
+  "6651955b-c36a-42ba-f9b9-a7c800ac9b80": {
+    "timestamp": 1396544210.2081311, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "/root/tmp/disk2", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "raidz1-0", 
+      "name": "/root/tmp/disk2", 
+      "zpoolname": "testpool", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "b472754c-5d52-64d1-c25c-cd0966e27ce6": {
+    "timestamp": 1396544210.2103679, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t3d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-1", 
+      "name": "c4t3d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "4dbb8fd9-1642-eda2-a07b-ff0e8ce2acbd": {
+    "timestamp": 1396544210.217268, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "13637108736", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1361820721", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "13637108736", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "13637108736", 
+      "usedbydataset": "13637108736", 
+      "refcompressratio": "1.00x", 
+      "volsize": "107374182400", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/razor", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "a4033fa7-d3b3-4981-a153-c587e44ae58e": {
+    "timestamp": 1396544210.218487, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "2877756416", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1361837547", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "2877756416", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "2877756416", 
+      "usedbydataset": "2877756416", 
+      "refcompressratio": "1.00x", 
+      "volsize": "21474836480", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/router1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "1728eb8d-0729-4f90-f0fc-af22ca88461c": {
+    "timestamp": 1396544210.207844, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-0", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "rpool"
+    }, 
+    "type": "vdev"
+  }, 
+  "6141f24e-cf3d-cf9b-a7b7-afda54a974f9": {
+    "timestamp": 1396544210.1999199, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000512BBC3B0002", 
+      "lun": 7
+    }, 
+    "type": "view"
+  }, 
+  "d8add01c-1c5b-ec19-809c-b0bf5e368b22": {
+    "timestamp": 1396544210.2148111, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vmimage/routeros-NS7W-33DJ@init", 
+      "referenced": "242310144", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381440537", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "138297344", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "138297344", 
+      "usedbydataset": "138297344", 
+      "refcompressratio": "1.00x", 
+      "volsize": "32212254720", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/lab1router", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "59081093-802b-c97c-c8d1-a3dc554c934e": {
+    "timestamp": 1396544210.1938889, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "name": "node01", 
+      "members": [
+        "iqn.2005-03.org.open-iscsi:ac8af0b097f0"
+      ]
+    }, 
+    "type": "hostgroup"
+  }, 
+  "c67fa6ca-adda-69c4-f9cf-ead52088a7ea": {
+    "timestamp": 1396544210.2010989, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/caleb1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000526569C40019", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 85899345920, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/caleb1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "39ca9f6c-37d1-6df9-fbac-a087afa79de5": {
+    "timestamp": 1396544210.202019, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "size": 161061273600, 
+      "data_file": "/dev/zvol/rdsk/stor/vms/chefnode", 
+      "operational_status": "Online", 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/chefnode", 
+      "write_protect": "Disabled", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000050AD698A0003", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd", 
+      "block_size": 512, 
+      "view_entry_count": 0, 
+      "writeback_cache": "Enabled"
+    }, 
+    "type": "lun"
+  }, 
+  "8e8daeba-a071-e1ec-9512-c0f1f3416b4b": {
+    "timestamp": 1396544210.1991329, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/thomas", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000523A5D57000A", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 21474836480, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/thomas", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "0dc6804f-5d43-46fd-e3ac-84cbb24015be": {
+    "timestamp": 1396544210.2163091, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vmimage/mikrotik@licensed", 
+      "referenced": "32556850176", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1380247146", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "32548443136", 
+      "usedbysnapshots": "121962496", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "32670405632", 
+      "usedbydataset": "32548443136", 
+      "refcompressratio": "1.00x", 
+      "volsize": "77309411328", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/edge1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "90dccd5e-3ce7-c0a9-8dff-de71f2f6a452": {
+    "timestamp": 1396544210.2183509, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "2088011776", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1350705656", 
+      "zpoolname": "rpool", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "2088011776", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "25235771392", 
+      "used": "2088011776", 
+      "usedbydataset": "2088011776", 
+      "refcompressratio": "1.00x", 
+      "org.openindiana.caiman:install": "ready", 
+      "volsize": "2087714816", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "131072", 
+      "mlslabel": "none", 
+      "name": "rpool/dump", 
+      "checksum": "off", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "08b4f134-4bd6-6a06-e3d9-ca666e14836d": {
+    "timestamp": 1396544210.2169931, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vmimage/routeros-NS7W-33DJ@init", 
+      "referenced": "242323456", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381778315", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "137794560", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "137794560", 
+      "usedbydataset": "137794560", 
+      "refcompressratio": "1.00x", 
+      "volsize": "32212254720", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/lbtestrouter", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "81523fe4-77b8-4a69-e608-e1281718fc27": {
+    "timestamp": 1396544210.203063, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/router1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000512BFDF30003", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 21474836480, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/router1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "67f20674-8372-efc1-c1e0-b7f41a45ef53": {
+    "timestamp": 1396544210.217133, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "2578110464", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/xcat1@install", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1378174391", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "2578110464", 
+      "used": "325681152", 
+      "parent": "stor/vms/xcat1", 
+      "secondarycache": "all", 
+      "clones": "", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "156fb6fb-2ace-c145-c4a1-8a224a8fc101": {
+    "timestamp": 1396544210.2110929, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-4", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "vdev"
+  }, 
+  "f0fda515-1852-4018-9788-8e6c89bf5e0d": {
+    "timestamp": 1396544210.194468, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/oinkuidev2", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000525DBFAD0016", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 128849018880, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/oinkuidev2", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "c36371b6-681f-e416-a756-abd67e943dfa": {
+    "timestamp": 1396544210.1940219, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "name": "sungardmac", 
+      "members": [
+        "iqn.2012-11.macbook:01:d46f1789-2356-48e9-a1d7-d729af2bdcc2", 
+        "iqn.2013-08.macbook:02:415733d1-8948-435a-80fe-be2fee731054"
+      ]
+    }, 
+    "type": "hostgroup"
+  }, 
+  "1edbaecb-877b-4cba-ef60-b868593b17d4": {
+    "timestamp": 1396544210.2027719, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000512BFDF30003", 
+      "lun": 1
+    }, 
+    "type": "view"
+  }, 
+  "25d10f1f-f39b-cb03-8976-c101ed0965ce": {
+    "timestamp": 1396544210.2150819, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "16384", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1380247148", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "0", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "16384", 
+      "usedbydataset": "16384", 
+      "refcompressratio": "1.00x", 
+      "volsize": "77309411328", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/edge2", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "99710dcc-eef1-e719-a818-dbb908d48d8f": {
+    "timestamp": 1396544210.2138901, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "143350784", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1350705654", 
+      "zpoolname": "rpool", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "2076156928", 
+      "written": "143350784", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "27311928320", 
+      "used": "2219507712", 
+      "usedbydataset": "143350784", 
+      "refcompressratio": "1.00x", 
+      "org.openindiana.caiman:install": "ready", 
+      "volsize": "2087714816", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "4096", 
+      "mlslabel": "none", 
+      "name": "rpool/swap", 
+      "checksum": "on", 
+      "refreservation": "2219507712"
+    }, 
+    "type": "zvol"
+  }, 
+  "c3162507-b0f5-6140-9370-8d18a6463a92": {
+    "timestamp": 1396544210.215492, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "10781778944", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vmimage/stingray-v81r1-06a@master", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1382297715", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "10781778944", 
+      "used": "0", 
+      "parent": "stor/vmimage/stingray-v81r1-06a", 
+      "secondarycache": "all", 
+      "clones": "stor/vms/lbdapper,stor/vms/lb1", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "7072129b-ae6a-62fc-a54d-af692a936054": {
+    "timestamp": 1396544210.2018559, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vmimage/mikrotik-NS7W-33DJ", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000525708520011", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 77309411328, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vmimage/mikrotik-NS7W-33DJ", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "8ea5b849-068c-4150-fce9-c1e1bea7a2ab": {
+    "timestamp": 1396544210.199759, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000512BBC3B0002", 
+      "lun": 0
+    }, 
+    "type": "view"
+  }, 
+  "ec62ab1b-6e5b-e6ac-da70-f2c353ba7aa6": {
+    "timestamp": 1396544210.2012601, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005235CB210008", 
+      "lun": 13
+    }, 
+    "type": "view"
+  }, 
+  "1e908131-a764-c313-e10e-dfe2b72fbe68": {
+    "timestamp": 1396544210.193481, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "portals": "10.100.0.11:8000", 
+      "name": "isertgt"
+    }, 
+    "type": "targetportalgroup"
+  }, 
+  "3980fb7c-308c-e1ac-b78b-e00fa3b8e436": {
+    "timestamp": 1396544210.2039771, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005250BEE6000E", 
+      "lun": 2
+    }, 
+    "type": "view"
+  }, 
+  "3f129bf2-3f61-42d9-f407-eef75223cdf5": {
+    "timestamp": 1396544210.2065179, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000525804F80014", 
+      "lun": 23
+    }, 
+    "type": "view"
+  }, 
+  "50d481cf-fc17-605e-acc6-e8df7a4f922c": {
+    "timestamp": 1396544210.195689, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005244E67E000B", 
+      "lun": 0
+    }, 
+    "type": "view"
+  }, 
+  "aba3f422-9ebc-61d3-ec16-b6cd958b3ace": {
+    "timestamp": 1396544210.2130671, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vmimage/stingray-v81r1-06a@master", 
+      "referenced": "10782399488", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1394739750", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "133342208", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "133342208", 
+      "usedbydataset": "133342208", 
+      "refcompressratio": "1.00x", 
+      "volsize": "10737418240", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/lbdapper", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "596f0fba-12e3-e95d-e565-cb4a8d7b167b": {
+    "timestamp": 1396544210.198544, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000525C43950015", 
+      "lun": 24
+    }, 
+    "type": "view"
+  }, 
+  "b7d093fd-eadd-efe1-bd7b-8a5ee4bba3df": {
+    "timestamp": 1396544210.20261, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vmimage/routeros-NS7W-33DJ", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000525709040012", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 32212254720, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vmimage/routeros-NS7W-33DJ", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "5f43d985-8fa1-ec3e-e729-fb0ae0a01f73": {
+    "timestamp": 1396544210.1980879, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522156E40004", 
+      "lun": 9
+    }, 
+    "type": "view"
+  }, 
+  "2f2cb2a5-c21c-ec28-966f-c0d56f136596": {
+    "timestamp": 1396544210.194927, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000515C58F30005", 
+      "lun": 2
+    }, 
+    "type": "view"
+  }, 
+  "a348e06c-ba42-6114-a34b-a30fd95e5934": {
+    "timestamp": 1396544210.194766, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/puppettest", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000050BE7D3D0005", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 107374182400, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/puppettest", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "5cd73c41-9d8c-45bb-ae77-a96fb440d35f": {
+    "timestamp": 1396544210.2132039, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "3712243712", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1352619291", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "3712243712", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "3712243712", 
+      "usedbydataset": "3712243712", 
+      "refcompressratio": "1.00x", 
+      "volsize": "53687091200", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/dangle", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "e18e5a4a-ed05-6b5b-ae75-eb5dda01677e": {
+    "timestamp": 1396544210.2193019, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "10195505152", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1354661164", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "10195505152", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "10195505152", 
+      "usedbydataset": "10195505152", 
+      "refcompressratio": "1.00x", 
+      "volsize": "107374182400", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/puppettest", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "a636cbd3-4ec9-4c7e-97fd-8211081d0b42": {
+    "timestamp": 1396544210.2190311, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "10150925312", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1355268537", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "10150925312", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "10150925312", 
+      "usedbydataset": "10150925312", 
+      "refcompressratio": "1.00x", 
+      "volsize": "107374182400", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/zephyr", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "4499ecd8-8aa2-ee91-d37f-caaf90a3b587": {
+    "timestamp": 1396544210.210072, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t1d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-0", 
+      "name": "c3t1d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "4280c225-0fb8-e281-fe35-a8369748c02a": {
+    "timestamp": 1396544210.2175391, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "57878242304", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381500143", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "52418991104", 
+      "usedbysnapshots": "3435346944", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "61313589248", 
+      "usedbydataset": "57878242304", 
+      "refcompressratio": "1.00x", 
+      "volsize": "128849018880", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/oinkuidev", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "deff347e-1c47-67d1-afb8-8970bb9f7874": {
+    "timestamp": 1396544210.2035241, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005244E681000C", 
+      "lun": 17
+    }, 
+    "type": "view"
+  }, 
+  "8beea33f-7d87-e31b-a1c1-d92aa030f04b": {
+    "timestamp": 1396544210.2069449, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/docker", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000052E176CD001B", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 214748364800, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/docker", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "3997ddf1-78d4-ec8f-d421-aae7ce368354": {
+    "timestamp": 1396544210.211524, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-5", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "vdev"
+  }, 
+  "6e80ef6a-cff3-c526-ab83-eed7b642c50c": {
+    "timestamp": 1396544210.2045629, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/razor2", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000522000C80001", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 21474836480, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/razor2", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "681338a6-7854-c758-f19c-8c5b4889491f": {
+    "timestamp": 1396544210.1976309, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/lab1router", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000052571C250013", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 32212254720, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/lab1router", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "304cfb7b-5f2c-cfc2-fd18-f918d4f1e4db": {
+    "timestamp": 1396544210.2197151, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vmimage/stingray-v81r1-06a@master", 
+      "referenced": "10784615424", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1382297733", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "994622464", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "994622464", 
+      "usedbydataset": "994622464", 
+      "refcompressratio": "1.00x", 
+      "volsize": "10737418240", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/lb1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "a286a3da-c200-e50a-fc12-fd0c0c364dc7": {
+    "timestamp": 1396544210.2141621, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "32552312832", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1380482472", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "1024", 
+      "usedbysnapshots": "1024", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "32552313856", 
+      "usedbydataset": "32552312832", 
+      "refcompressratio": "1.00x", 
+      "volsize": "77309411328", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vmimage/mikrotik", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "3ef49e62-ba0d-e02f-fa28-85485e99f58c": {
+    "timestamp": 1396544210.21876, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "240017408", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vmimage/routeros-NS7W-33DJ@init", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1381440474", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "223078400", 
+      "used": "1024", 
+      "parent": "stor/vmimage/routeros-NS7W-33DJ", 
+      "secondarycache": "all", 
+      "clones": "stor/vms/lbtestrouter,stor/vms/lab1router", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "a18348ca-a3fe-e646-97e1-f5ddf0df621e": {
+    "timestamp": 1396544210.198247, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522156E40004", 
+      "lun": 16
+    }, 
+    "type": "view"
+  }, 
+  "ac94ca1e-3abd-ed32-c8a6-e75dce35157a": {
+    "timestamp": 1396544210.2033629, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/routeros3", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000522192250005", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 85899345920, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/routeros3", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "70e9c7ca-cfa5-434a-89d3-a21e4ce01a8f": {
+    "timestamp": 1396544210.200671, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000526C3FBD001A", 
+      "lun": 29
+    }, 
+    "type": "view"
+  }, 
+  "1d6e94ac-4f7a-4757-b088-985fb4923a88": {
+    "timestamp": 1396544210.20593, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000523735FE0009", 
+      "lun": 20
+    }, 
+    "type": "view"
+  }, 
+  "cbc31078-b869-4d5c-a4c4-e54aa99d5cdf": {
+    "timestamp": 1396544210.196121, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/lbdapper", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000053220A360001", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 10737418240, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/lbdapper", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "b9e9ca44-2099-4363-eb6b-f23fc3e8c58e": {
+    "timestamp": 1396544210.2083991, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "/root/tmp/disk1", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "raidz1-0", 
+      "name": "/root/tmp/disk1", 
+      "zpoolname": "testpool", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "9141e2a0-ce6d-e711-ba2e-a54e91a19b3f": {
+    "timestamp": 1396544210.197793, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005264308F0018", 
+      "lun": 27
+    }, 
+    "type": "view"
+  }, 
+  "05597eea-348c-4297-889e-bd9605726b08": {
+    "timestamp": 1396544210.195986, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000053220A360001", 
+      "lun": 31
+    }, 
+    "type": "view"
+  }, 
+  "aa7883d2-9e66-cda1-bfd5-84e540530a83": {
+    "timestamp": 1396544210.21226, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "comment": "-", 
+      "freeing": "0", 
+      "listsnapshots": "off", 
+      "version": "-", 
+      "scan": "scrub repaired 0 in 35h30m with 0 errors on Mon Jan 20 08:54:20 2014", 
+      "delegation": "on", 
+      "dedupditto": "0", 
+      "autoexpand": "off", 
+      "allocated": "4.66T", 
+      "guid": "6172893993474118619", 
+      "readonly": "off", 
+      "errors": " No known data errors\n", 
+      "capacity": "85%", 
+      "cachefile": "-", 
+      "bootfs": "-", 
+      "autoreplace": "on", 
+      "state": "ONLINE", 
+      "dedupratio": "1.00x", 
+      "health": "ONLINE", 
+      "expandsize": "0", 
+      "size": "5.44T", 
+      "feature@async_destroy": "enabled", 
+      "feature@empty_bpobj": "active", 
+      "free": "791G", 
+      "failmode": "wait", 
+      "altroot": "-", 
+      "name": "stor"
+    }, 
+    "type": "zpool"
+  }, 
+  "88de896b-6f34-e33a-d0f9-a1959268f008": {
+    "timestamp": 1396544210.2145381, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "3850668032", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1382825906", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "3850668032", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "3850668032", 
+      "usedbydataset": "3850668032", 
+      "refcompressratio": "1.00x", 
+      "volsize": "85899345920", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/cache", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "069cb5c1-0077-6b8c-fdda-fc97afc9bc0a": {
+    "timestamp": 1396544210.211364, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t7d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-5", 
+      "name": "c4t7d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "f42f7d86-9d62-6e26-f6fc-8096e26237cc": {
+    "timestamp": 1396544210.2005091, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/xcat1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000522543610006", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 107374182400, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/xcat1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "50beaa23-9b05-650b-aa6f-ca43418192d3": {
+    "timestamp": 1396544210.1962841, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005221478B0003", 
+      "lun": 8
+    }, 
+    "type": "view"
+  }, 
+  "3e24dc2c-c790-4dc6-8b73-87f518fe7655": {
+    "timestamp": 1396544210.2072639, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522024E20002", 
+      "lun": 14
+    }, 
+    "type": "view"
+  }, 
+  "03e8ee22-93cb-c2f2-a9ac-e0228fbf4ee6": {
+    "timestamp": 1396544210.19749, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000052571C250013", 
+      "lun": 6
+    }, 
+    "type": "view"
+  }, 
+  "fd5714c1-8c61-c965-9078-b4d9f7c05c85": {
+    "timestamp": 1396544210.206063, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/oinkdev", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000523735FE0009", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 42949672960, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/oinkdev", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "be6e210b-c278-edf1-fd9c-bcfcad385814": {
+    "timestamp": 1396544210.2118809, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "comment": "-", 
+      "freeing": "0", 
+      "listsnapshots": "off", 
+      "version": "-", 
+      "scan": "scrub repaired 0 in 0h7m with 0 errors on Mon Jan  7 11:23:57 2013", 
+      "delegation": "on", 
+      "dedupditto": "0", 
+      "autoexpand": "off", 
+      "allocated": "11.0G", 
+      "guid": "18398111267391878995", 
+      "readonly": "off", 
+      "errors": " No known data errors\n", 
+      "capacity": "29%", 
+      "cachefile": "-", 
+      "bootfs": "rpool/ROOT/netatalk-3.0.1", 
+      "autoreplace": "off", 
+      "state": "ONLINE", 
+      "dedupratio": "1.00x", 
+      "health": "ONLINE", 
+      "expandsize": "0", 
+      "size": "37G", 
+      "feature@async_destroy": "enabled", 
+      "feature@empty_bpobj": "active", 
+      "free": "26.0G", 
+      "failmode": "wait", 
+      "altroot": "-", 
+      "name": "rpool"
+    }, 
+    "type": "zpool"
+  }, 
+  "862854f4-e590-4ccd-f16a-bb1c6436afa7": {
+    "timestamp": 1396544210.2182159, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "17173080064", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1379257099", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "17173080064", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "17173080064", 
+      "usedbydataset": "17173080064", 
+      "refcompressratio": "1.00x", 
+      "volsize": "21474836480", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/firehose1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "aa6f492a-54ed-673a-bee9-fb0d65a9765f": {
+    "timestamp": 1396544210.2050159, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/tools", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000051648B5E0006", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 128849018880, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/tools", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "b6bf8fd0-d758-c87b-a481-cd7fd430b9bf": {
+    "timestamp": 1396544210.21123, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t6d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-5", 
+      "name": "c3t6d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "e7404ff4-6903-617b-b8c2-c47ef0f7f20b": {
+    "timestamp": 1396544210.2167201, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "4052204544", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1379350004", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "4052204544", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "4052204544", 
+      "usedbydataset": "4052204544", 
+      "refcompressratio": "1.00x", 
+      "volsize": "42949672960", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/oinkdev", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "e3e0fb0d-5334-ca37-d90d-f21050413a0f": {
+    "timestamp": 1396544210.2152181, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "3436405760", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1379253858", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "3436405760", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "3436405760", 
+      "usedbydataset": "3436405760", 
+      "refcompressratio": "1.00x", 
+      "volsize": "85899345920", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/saltmaster", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "546a07bc-3b2f-67a3-f54c-829f15f3aa6a": {
+    "timestamp": 1396544210.1958239, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/edge1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005244E67E000B", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 77309411328, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/edge1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "042f1f50-88f5-4334-a10a-9e3d8ae45dcf": {
+    "timestamp": 1396544210.202316, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/somevol", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000513F94F30004", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 214748364800, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/somevol", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "9b6a377c-b337-4d1a-85e2-f73b66627984": {
+    "timestamp": 1396544210.2082641, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "/root/tmp/disk3", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "raidz1-0", 
+      "name": "/root/tmp/disk3", 
+      "zpoolname": "testpool", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "10f18974-00e6-4df6-81a6-92a8f58644c9": {
+    "timestamp": 1396544210.197329, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vmimage/stingray-v81r1-06a", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000052642E700017", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 10737418240, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vmimage/stingray-v81r1-06a", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "9df60d47-2610-6ff8-fb65-dc71837598c6": {
+    "timestamp": 1396544210.1952219, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/ats", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B000000515C58F30005", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 128849018880, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/ats", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "fba611b7-b358-46cb-f9a5-a78bf1bd7a24": {
+    "timestamp": 1396544210.1989989, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000523A5D57000A", 
+      "lun": 21
+    }, 
+    "type": "view"
+  }, 
+  "266096b4-7726-41d1-9719-eb7f0255ef55": {
+    "timestamp": 1396544210.2015619, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/firehose1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005235CB210008", 
+      "view_entry_count": 2, 
+      "block_size": 512, 
+      "size": 21474836480, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/firehose1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "05d43d39-19cd-c575-a8a8-825cccbe72d3": {
+    "timestamp": 1396544210.213619, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "32552312832", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vmimage/mikrotik@licensed", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1380482431", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "32552312832", 
+      "used": "1024", 
+      "parent": "stor/vmimage/mikrotik", 
+      "secondarycache": "all", 
+      "clones": "stor/vms/edge1", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "1b0fda8b-3b6a-49de-ff62-df3fb2e2761d": {
+    "timestamp": 1396544210.206224, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "node01"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000050BD0FA50004", 
+      "lun": 1
+    }, 
+    "type": "view"
+  }, 
+  "720f35f0-a6f1-e6bd-bc84-92b4b6bd2850": {
+    "timestamp": 1396544210.215627, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "50231553024", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1354567581", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "50231553024", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "50231553024", 
+      "usedbydataset": "50231553024", 
+      "refcompressratio": "1.00x", 
+      "volsize": "107374182400", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/puppetnode", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "66db07f8-7586-eede-cf5c-b45b40d483e1": {
+    "timestamp": 1396544210.219579, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "3144998912", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/xcat1@updates", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1378176543", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "892569600", 
+      "used": "6691840", 
+      "parent": "stor/vms/xcat1", 
+      "secondarycache": "all", 
+      "clones": "", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "e172d3ed-a029-673c-cf19-bc89cab6afc3": {
+    "timestamp": 1396544210.218622, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "16384", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1361820709", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "16384", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "16384", 
+      "usedbydataset": "16384", 
+      "refcompressratio": "1.00x", 
+      "volsize": "21474836480", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/temprouter", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "8ffeab7b-d593-69b4-9d55-9d1bd33aebc3": {
+    "timestamp": 1396544210.2164481, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "16384", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/edge2@running", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1381435450", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "16384", 
+      "used": "0", 
+      "parent": "stor/vms/edge2", 
+      "secondarycache": "all", 
+      "clones": "stor/vmimage/mikrotik-NS7W-33DJ", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "0a324239-a9ba-614e-f931-93ddf4bdf10b": {
+    "timestamp": 1396544210.2099371, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t0d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-0", 
+      "name": "c4t0d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "4aa91426-f4db-6f73-9988-dda2e614e8af": {
+    "timestamp": 1396544210.217674, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vms/routeros1@free", 
+      "referenced": "1517687808", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1377916637", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "1958912", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "1958912", 
+      "usedbydataset": "1958912", 
+      "refcompressratio": "1.00x", 
+      "volsize": "85899345920", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/routeros2", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "9c5cb6ea-92eb-40be-e571-cfbddd9707f3": {
+    "timestamp": 1396544210.215354, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vms/routeros1@free", 
+      "referenced": "1517554688", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1377931801", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "1024", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "1024", 
+      "usedbydataset": "1024", 
+      "refcompressratio": "1.00x", 
+      "volsize": "85899345920", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/routeros3", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "a5c63210-1a37-ccc4-99aa-c5c1535437c7": {
+    "timestamp": 1396544210.2134809, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "32553411584", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/edge1@running", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1381435077", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "121962496", 
+      "used": "121962496", 
+      "parent": "stor/vms/edge1", 
+      "secondarycache": "all", 
+      "clones": "", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "65da8feb-771a-65e3-8a1d-eed1b592b434": {
+    "timestamp": 1396544210.2137539, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vms/edge2@running", 
+      "referenced": "16384", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381435472", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "1024", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "1024", 
+      "usedbydataset": "1024", 
+      "refcompressratio": "1.00x", 
+      "volsize": "77309411328", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vmimage/mikrotik-NS7W-33DJ", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "44864983-741b-eeea-8dde-c763e1874455": {
+    "timestamp": 1396544210.195384, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "node01"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000509F553A0001", 
+      "lun": 0
+    }, 
+    "type": "view"
+  }, 
+  "e295f0fd-7a5d-c8a2-879e-801c721928f5": {
+    "timestamp": 1396544210.2102311, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-0", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "vdev"
+  }, 
+  "93248110-0ea8-e6b1-e87b-8a8433958847": {
+    "timestamp": 1396544210.209003, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t2d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-2", 
+      "name": "c4t2d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "1743f50b-7c0a-c638-ae64-b8589440b526": {
+    "timestamp": 1396544210.205317, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/zephyr", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000050C7C1D10006", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 107374182400, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/zephyr", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "bbf847b4-4ac7-4f46-de49-c0341c8ca136": {
+    "timestamp": 1396544210.2116871, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t6d0", 
+      "state": "AVAIL", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "sparedev"
+  }, 
+  "0896787b-4bcb-487b-b9e6-8bb679b42873": {
+    "timestamp": 1396544210.2087231, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "/root/tmp/disk4", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "testpool"
+    }, 
+    "type": "cachedev"
+  }, 
+  "c06e7f27-4303-ed65-b873-f419f077cbd9": {
+    "timestamp": 1396544210.202477, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000525709040012", 
+      "lun": 5
+    }, 
+    "type": "view"
+  }, 
+  "85dbbe04-43a5-c673-e1c0-fbc751f52958": {
+    "timestamp": 1396544210.2076819, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t0d0s0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-0", 
+      "name": "c3t0d0s0", 
+      "zpoolname": "rpool", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "0b967014-2af1-6aa2-8d83-e9e81ee57747": {
+    "timestamp": 1396544210.207546, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t1d0s0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-0", 
+      "name": "c4t1d0s0", 
+      "zpoolname": "rpool", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "e2cbeda3-dc11-cfd2-ada1-a3e54f6b9d02": {
+    "timestamp": 1396544210.1988399, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000523A5D57000A", 
+      "lun": 15
+    }, 
+    "type": "view"
+  }, 
+  "aa60aed9-fbb1-c10f-94ac-ee377505e6f7": {
+    "timestamp": 1396544210.1992941, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005235BE6C0007", 
+      "lun": 12
+    }, 
+    "type": "view"
+  }, 
+  "e50b137a-16f5-c4ee-9d06-c6b9699ff467": {
+    "timestamp": 1396544210.1968989, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000051BF7B770001", 
+      "lun": 12
+    }, 
+    "type": "view"
+  }, 
+  "3dfe324d-430c-4d69-c0dc-a9a36ef3d127": {
+    "timestamp": 1396544210.2107999, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c3t5d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-4", 
+      "name": "c3t5d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "93dec26e-6778-6e9c-e835-86756d040ea7": {
+    "timestamp": 1396544210.2017231, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000525708520011", 
+      "lun": 3
+    }, 
+    "type": "view"
+  }, 
+  "c9acbf63-0a6c-64bf-e96f-c0e1b7b6fd5a": {
+    "timestamp": 1396544210.206358, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/puppetnode", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000050BD0FA50004", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 107374182400, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/puppetnode", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "9396d8d5-0afc-42aa-ccf1-928858d11ea5": {
+    "timestamp": 1396544210.1937549, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "name": "mothership1", 
+      "members": [
+        "iqn.2013-02.mothership1:0d0a0b20"
+      ]
+    }, 
+    "type": "hostgroup"
+  }, 
+  "d1591de4-0c36-460f-c5f7-d78a8e0a1d28": {
+    "timestamp": 1396544210.217809, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "7327111168", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1379556685", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "7327111168", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "7327111168", 
+      "usedbydataset": "7327111168", 
+      "refcompressratio": "1.00x", 
+      "volsize": "21474836480", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/thomas", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "3088172f-780d-c3a5-9dc0-e2248c3106f2": {
+    "timestamp": 1396544210.2041099, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/mgmtnet1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005250BEE6000E", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 32212254720, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/mgmtnet1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "80cbe13d-6443-622b-bd4f-e194660fba5f": {
+    "timestamp": 1396544210.20293, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000512BFDF30003", 
+      "lun": 8
+    }, 
+    "type": "view"
+  }, 
+  "1091e76e-a6b2-c3f5-8568-da579662bd8d": {
+    "timestamp": 1396544210.2174029, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "1519597568", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1377912704", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "126786560", 
+      "usedbysnapshots": "124743680", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "1644341248", 
+      "usedbydataset": "1519597568", 
+      "refcompressratio": "1.00x", 
+      "volsize": "85899345920", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/routeros1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "5bb89f69-1bce-4f4e-8982-94de69520d1f": {
+    "timestamp": 1396544210.205771, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000523735FE0009", 
+      "lun": 14
+    }, 
+    "type": "view"
+  }, 
+  "93768d25-9a77-ca52-f77b-871273bfd9ba": {
+    "timestamp": 1396544210.2157631, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "8097712128", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1377829050", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "8097712128", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "8097712128", 
+      "usedbydataset": "8097712128", 
+      "refcompressratio": "1.00x", 
+      "volsize": "21474836480", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/razor2", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "57d92429-0440-6604-e92d-a3ddb5f46663": {
+    "timestamp": 1396544210.216033, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "origin": "stor/vms/oinkuidev@cloney", 
+      "referenced": "11408589824", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1381875618", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "3470662656", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "3470662656", 
+      "usedbydataset": "3470662656", 
+      "refcompressratio": "1.00x", 
+      "volsize": "128849018880", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/oinkuidev2", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "497817a9-007a-6478-8d74-ec7e9ebb1e6f": {
+    "timestamp": 1396544210.2068119, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000052E176CD001B", 
+      "lun": 30
+    }, 
+    "type": "view"
+  }, 
+  "83680458-1a19-69d7-c84b-b715075c9408": {
+    "timestamp": 1396544210.214026, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "9517078528", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1371503451", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "9517078528", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "9517078528", 
+      "usedbydataset": "9517078528", 
+      "refcompressratio": "1.00x", 
+      "volsize": "107374182400", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/atlassian", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "4ae28b4f-18ea-4fa1-de4d-8c45dc8216cd": {
+    "timestamp": 1396544210.205611, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/ipam", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B00000052488A54000D", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 42949672960, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/ipam", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "50b2cab5-3414-c119-8897-d56639b03fe9": {
+    "timestamp": 1396544210.212795, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "16384", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1363121370", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "16384", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "16384", 
+      "usedbydataset": "16384", 
+      "refcompressratio": "1.00x", 
+      "volsize": "214748364800", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/somevol", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "e8007046-8264-cd80-8b70-d954b484e624": {
+    "timestamp": 1396544210.196444, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "beastmode1"
+      ], 
+      "viewnum": 1, 
+      "target_group": [], 
+      "luid": "600144F0599F8B0000005221478B0003", 
+      "lun": 15
+    }, 
+    "type": "view"
+  }, 
+  "43119fd3-71db-e727-930c-a89c40e2132a": {
+    "timestamp": 1396544210.2109339, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t4d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-4", 
+      "name": "c4t4d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "2c7c03d5-b488-6061-ba12-9be4f91d1ea7": {
+    "timestamp": 1396544210.197927, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "data_file": "/dev/zvol/rdsk/stor/vms/lb1", 
+      "management_url": "not set", 
+      "vendor_id": "OI", 
+      "luid": "600144F0599F8B0000005264308F0018", 
+      "view_entry_count": 1, 
+      "block_size": 512, 
+      "size": 10737418240, 
+      "access_state": "Active", 
+      "product_id": "COMSTAR", 
+      "alias": "/dev/zvol/rdsk/stor/vms/lb1", 
+      "write_protect": "Disabled", 
+      "writeback_cache": "Enabled", 
+      "operational_status": "Online", 
+      "serial_num": "not set", 
+      "meta_file": "not set", 
+      "provider_name": "sbd"
+    }, 
+    "type": "lun"
+  }, 
+  "8b7e7ba3-9e98-ccd0-e88f-a7a9b9986d25": {
+    "timestamp": 1396544210.2168579, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "1517554688", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/routeros1@free", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1377916621", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "1517554688", 
+      "used": "124743680", 
+      "parent": "stor/vms/routeros1", 
+      "secondarycache": "all", 
+      "clones": "stor/vms/routeros2,stor/vms/routeros3", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "b055b17b-c5ec-4e14-8089-987f5aeb2d61": {
+    "timestamp": 1396544210.2194409, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "setuid": "on", 
+      "referenced": "3145193472", 
+      "refcompressratio": "1.00x", 
+      "name": "stor/vms/xcat1@prexcat", 
+      "defer_destroy": "off", 
+      "exec": "on", 
+      "primarycache": "all", 
+      "xattr": "on", 
+      "creation": "1378180786", 
+      "userrefs": "0", 
+      "devices": "on", 
+      "compressratio": "1.00x", 
+      "written": "7803904", 
+      "used": "7648256", 
+      "parent": "stor/vms/xcat1", 
+      "secondarycache": "all", 
+      "clones": "", 
+      "type": "snapshot", 
+      "zpoolname": "stor", 
+      "nbmand": "off", 
+      "mlslabel": "none"
+    }, 
+    "type": "zfssnapshot"
+  }, 
+  "091344ae-47fe-42c6-ec71-fb59e2db6760": {
+    "timestamp": 1396544210.2106619, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "mirror-1", 
+      "state": "ONLINE", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "zpoolname": "stor"
+    }, 
+    "type": "vdev"
+  }, 
+  "01e487eb-1de4-6c4e-d008-e0b75cb2b86c": {
+    "timestamp": 1396544210.196739, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000051BF7B770001", 
+      "lun": 5
+    }, 
+    "type": "view"
+  }, 
+  "237a32a7-9f75-6d95-8131-bf193528ecab": {
+    "timestamp": 1396544210.209641, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "devicename": "c4t5d0", 
+      "errors": {
+        "write": "0", 
+        "read": "0", 
+        "cksum": "0"
+      }, 
+      "parentdev": "mirror-3", 
+      "name": "c4t5d0", 
+      "zpoolname": "stor", 
+      "state": "ONLINE"
+    }, 
+    "type": "disk"
+  }, 
+  "791d4021-ed98-6e35-987a-dc9a2ddf14bd": {
+    "timestamp": 1396544210.2051771, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "node01"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B00000050C7C1D10006", 
+      "lun": 3
+    }, 
+    "type": "view"
+  }, 
+  "faaf7af9-9629-4b38-9217-868ee6005143": {
+    "timestamp": 1396544210.21208, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "comment": "-", 
+      "freeing": "0", 
+      "listsnapshots": "off", 
+      "version": "-", 
+      "scan": "none requested", 
+      "delegation": "on", 
+      "dedupditto": "0", 
+      "autoexpand": "off", 
+      "allocated": "251K", 
+      "guid": "8607011882250188606", 
+      "readonly": "off", 
+      "errors": " No known data errors\n", 
+      "capacity": "0%", 
+      "cachefile": "-", 
+      "bootfs": "-", 
+      "autoreplace": "off", 
+      "state": "ONLINE", 
+      "dedupratio": "1.00x", 
+      "health": "ONLINE", 
+      "expandsize": "0", 
+      "size": "370M", 
+      "feature@async_destroy": "enabled", 
+      "feature@empty_bpobj": "active", 
+      "free": "370M", 
+      "failmode": "wait", 
+      "altroot": "-", 
+      "name": "testpool"
+    }, 
+    "type": "zpool"
+  }, 
+  "00209fb6-8c83-434b-8e9e-83bc096c0541": {
+    "timestamp": 1396544210.214947, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "referenced": "7089070080", 
+      "primarycache": "all", 
+      "logbias": "latency", 
+      "creation": "1382377914", 
+      "zpoolname": "stor", 
+      "sync": "standard", 
+      "dedup": "off", 
+      "usedbyrefreservation": "0", 
+      "written": "7089070080", 
+      "usedbysnapshots": "0", 
+      "compression": "off", 
+      "copies": "1", 
+      "compressratio": "1.00x", 
+      "readonly": "off", 
+      "type": "volume", 
+      "secondarycache": "all", 
+      "available": "756298160640", 
+      "used": "7089070080", 
+      "usedbydataset": "7089070080", 
+      "refcompressratio": "1.00x", 
+      "volsize": "85899345920", 
+      "reservation": "0", 
+      "usedbychildren": "0", 
+      "volblocksize": "8192", 
+      "mlslabel": "none", 
+      "name": "stor/vms/caleb1", 
+      "checksum": "on", 
+      "refreservation": "0"
+    }, 
+    "type": "zvol"
+  }, 
+  "86543dbd-8dbe-4250-cf92-b8eb11d1d670": {
+    "timestamp": 1396544210.2042711, 
+    "pluginname": "zfsnode", 
+    "_d": {
+      "host_group": [
+        "mothership1"
+      ], 
+      "viewnum": 0, 
+      "target_group": [], 
+      "luid": "600144F0599F8B000000522000C80001", 
+      "lun": 6
+    }, 
+    "type": "view"
+  }
+}

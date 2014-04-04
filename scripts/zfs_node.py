@@ -138,7 +138,9 @@ for zvolname, z in zfsvoldata.iteritems():
 
 all_objs = dict(plugin.all_data())
 
-pprint.pprint(all_objs)
+import json
+
+print json.dumps(all_objs, indent=2)
 
 # pprint.pprint(target.data)
 # pprint.pprint(targetportalgroup.data)

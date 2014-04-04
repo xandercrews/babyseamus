@@ -57,7 +57,7 @@ class STMFExportXMLParser(xml.sax.ContentHandler):
     def _processViewEntryProperties(self, viewid, luid, props):
         view = {}
 
-        viewid = str(viewid)
+        viewid = int(viewid)
         luid = str(luid)
 
         for prop in props:
